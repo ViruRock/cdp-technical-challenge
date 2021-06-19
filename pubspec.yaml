@@ -1,0 +1,48 @@
+name: viraltechnicalchallenge
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  retrofit: ^2.0.0
+  json_annotation: ^4.0.1
+  moor_flutter: ^4.0.0
+  provider: ^5.0.0
+
+  cupertino_icons: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  retrofit_generator: ^2.0.0+1
+  build_runner: ^2.0.4
+  moor_generator: ^4.3.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: OpenSansBold
+      fonts:
+        - asset: fonts/opensans_bold.ttf
+    - family: OpenSansSemiBold
+      fonts:
+        - asset: fonts/opensans_semibold.ttf
+    - family: OpenSansRegular
+      fonts:
+        - asset: fonts/opensans_regular.ttf
+    - family: OpenSansLight
+      fonts:
+        - asset: fonts/opensans_light.ttf
